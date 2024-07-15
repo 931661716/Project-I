@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="searchButton">TIM KIEM</string>
+    <string name="addButton">THEM</string>
+    <string name="statisticButton">THONG KE</string>
+    <string name="noTextview">No</string>
+    <string name="ngayTextview">Ngay</string>
+    <string name="thu_chiTextview">Thu/Chi</string>
+    <string name="loaiKhoanTextview">Loai khoan</string>
+    <string name="giaTriTextview">Gia tri</string>
+    <string name="DateFormatText">DD/MM/YYYY</string>
+    <string name="Thu">Thu</string>
+    <string name="Chi">Chi</string>
+    <string name="loaiKhoanBtn_hint">Chon loai khoan</string>
+    <string name="giaTri_hint">0</string>
+    <string name="themLoaiKhoanBtn">THEM LOAI KHOAN</string>
+    <string name="datNguongChiBtn">DAT NGUONG CHI</string>
+    <string name="themLoaiKhoanTv">Loai khoan muon them</string>
+    <string name="datNguongChi_ngay">Dat nguong chi theo ngay</string>
+    <string name="datNguongChi_thang">Dat nguong chi theo thang</string>
+    <string name="positiveButton">OK</string>
+    <string name="thu_thongKe_1">Tong thu trong thang</string>
+    <string name="chi_thongKe_1">Tong chi trong thang</string>
+    <string name="datNguongChi_Tuan">Dat nguong chi theo tuan</string>
+    <string name="loai_khoan">Loai Khoan</string>
+</resources>

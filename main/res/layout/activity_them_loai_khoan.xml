@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_sub"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="56dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themLoaiKhoanTv">
+
+        <RadioButton
+            android:id="@+id/radioBtn_Thu_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkRadioBtn_them_loai_khoan"
+            android:text="@string/Thu"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn_Chi_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkRadioBtn_them_loai_khoan"
+            android:text="@string/Chi"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/themLoaiKhoanTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        android:text="@string/themLoaiKhoanTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextThemLoaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/themLoaiKhoanTv"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themLoaiKhoanTv" />
+
+    <Button
+        android:id="@+id/addBtn_themLoaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="218dp"
+        android:onClick="addLoaiKhoan_DB"
+        android:text="@string/addButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
